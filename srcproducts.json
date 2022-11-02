@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Heladera",
+    "price": "50000",
+    "thumbnail": "http://localhost:8080/thumbnail/1667425892371-imagen_2022-11-02_185131689.png",
+    "id": 1
+  },
+  {
+    "title": "Lavarropas",
+    "price": "30000",
+    "thumbnail": "http://localhost:8080/thumbnail/1667425916597-imagen_2022-11-02_185155944.png",
+    "id": 2
+  },
+  {
+    "title": "Ventilador",
+    "price": "6000",
+    "thumbnail": "http://localhost:8080/thumbnail/1667425931626-imagen_2022-11-02_185210457.png",
+    "id": 3
+  }
+]
