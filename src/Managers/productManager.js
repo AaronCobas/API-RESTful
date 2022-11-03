@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import __dirname from "../utils.js";
-const pathToFile = __dirname+"products.json";
+const pathToFile = __dirname+"/products.json";
 const success = {
     status: "success",
     message: "Product created successfully"
@@ -113,6 +113,20 @@ class Manager {
     message: "No prodcuts found",
     }
     }
+    }
+    putFile = async (product, id) =>{
+        const allProducts = await this.getAll()
+        const products = allProducts.products
+
+        let newProduct = products.map(element =>{
+            if(element.id == id){
+                return {...product, id:id}
+            }else{
+                return element
+            }
+        })
+        newProduct = JSON.stringify(newProduct, null, "\t")
+        await fs.promises.writeFile(pathToFile, newProduct)
     }
     deleteAll = async () =>{
         try {

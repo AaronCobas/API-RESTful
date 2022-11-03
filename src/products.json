@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Ventilador",
+		"price": 4000,
+		"thumbnail": "https://http2.mlstatic.com/D_NQ_NP_626105-MLA32384814346_102019-O.webp",
+		"id": "1"
+	},
+	{
+		"title": "Television",
+		"price": 1234,
+		"thumbnail": "http://localhost:8080/thumbnail/1667482179212-heladera-no-frost-electrolux-dfn3000p-plata-265lts-_Detalhe1.png",
+		"id": 2
+	}
+]
